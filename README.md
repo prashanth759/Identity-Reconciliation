@@ -23,13 +23,28 @@ Follow these instructions to set up the project locally.
     ```bash
     cd Identity-Reconciliation
     ```
-   
-3. **Install dependencies**:
+
+3. **Set Up a Virtual Environment**:
+   - Create a virtual environment:
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - **On Windows**:
+       ```bash
+       venv\Scripts\activate
+       ```
+     - **On macOS and Linux**:
+       ```bash
+       source venv/bin/activate
+       ```
+
+4. **Install dependencies**:
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 
-4. **Configure MySQL Credentials**:
+5. **Configure MySQL Credentials**:
    - Open `app.py`.
    - Enter your MySQL username and password by replacing the placeholders:
      ```python
