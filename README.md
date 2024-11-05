@@ -1,4 +1,4 @@
-# Identity Reconciliation API
+# Identity Reconciliation
 
 This project is an API designed for managing contact information and reconciling multiple identities to maintain user anonymity across multiple purchases. The service consolidates multiple contacts with different email addresses and phone numbers under a unified profile.
 
