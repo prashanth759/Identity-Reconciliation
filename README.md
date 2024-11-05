@@ -41,7 +41,7 @@ Follow these instructions to set up the project locally.
 
 4. **Install dependencies**:
     ```bash
-    pip install -r requirement.txt
+    pip install -r requirements.txt
     ```
 
 5. **Configure MySQL Credentials**:
